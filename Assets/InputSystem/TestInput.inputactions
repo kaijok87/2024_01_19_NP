@@ -1,0 +1,171 @@
+{
+    "name": "TestInput",
+    "maps": [
+        {
+            "name": "TestButton",
+            "id": "24a9d054-cd2e-47df-8885-e0259f04e95c",
+            "actions": [
+                {
+                    "name": "1",
+                    "type": "Button",
+                    "id": "4c473376-0dde-4add-b1b8-eb0aa03cb0ba",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "2",
+                    "type": "Button",
+                    "id": "fc495c05-7b34-407c-ad9f-49d5c77feb1d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "3",
+                    "type": "Button",
+                    "id": "3603f4f6-f427-432d-b281-f99f44b07d75",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "4",
+                    "type": "Button",
+                    "id": "e0a3e6f0-cccc-486d-b16e-dbc056cdce45",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "5",
+                    "type": "Button",
+                    "id": "dac6819f-c380-479d-9a30-92931c5e94b5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "LeftClick",
+                    "type": "Button",
+                    "id": "e8ff470f-ef57-49f0-8f8a-8cdab9acb02f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "RightClick",
+                    "type": "Button",
+                    "id": "40d74170-a275-4219-9e4f-cec834d16504",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "67bc1692-7d68-41bf-ad1b-0e785130916d",
+                    "path": "<Keyboard>/1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "DebugInput",
+                    "action": "1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "25291240-4b40-484c-a811-9407eab8273f",
+                    "path": "<Keyboard>/2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "DebugInput",
+                    "action": "2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2f260342-3f84-4249-84c5-660fe53625ea",
+                    "path": "<Keyboard>/3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "DebugInput",
+                    "action": "3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9299bc2d-31cb-4076-bbc1-8c0178e4ff59",
+                    "path": "<Keyboard>/4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "DebugInput",
+                    "action": "4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2f63830b-a68b-4e00-b6c5-943334c0e4dc",
+                    "path": "<Keyboard>/5",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "DebugInput",
+                    "action": "5",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d8b94086-8128-4d52-bd2c-e80b6070c68b",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "DebugInput",
+                    "action": "LeftClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "73336c68-db57-4abd-8597-7ca5395c8e39",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "DebugInput",
+                    "action": "RightClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "DebugInput",
+            "bindingGroup": "DebugInput",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
